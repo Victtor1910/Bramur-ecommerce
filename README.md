@@ -37,12 +37,6 @@ A Bramur é um projeto acadêmico de desenvolvimento web que busca apresentar um
 
 Adicione aqui as imagens reais das páginas do site.
 
-<div align="center">
-
-**Desenvolvido com dedicação e aprendizado. 🥊**
-
-</div>
-
 ###  Objetivos
 
 - Criar uma experiência de navegação intuitiva.
