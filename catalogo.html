@@ -1,0 +1,609 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Catálogo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lilita+One&family=Special+Gothic+Expanded+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body class="catalogo-page">
+    <div class="navegacao-site">
+        <nav class="navbar navbar-expand-lg nav-bar py-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./imagens/final.png" alt="Logo" width="80px" class="d-flex align-text-center">
+                </a>
+                <a class="navbar-brand bramur1" href="./index.html">BRAMUR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="bramur-search" role="search">
+                        <div class="pesquisa">
+                            <input class="input" type="search" placeholder="Digite o que você procura..." />
+                            <img class="icon" src="./imagens/lupa.png" alt="">
+                        </div>
+                    </form>
+                    <div class="nav-act">
+                        <a class="nav-action conta-action" href="./login.html">
+                            <img class="nav-action-icon" src="./imagens/people.png" alt="">
+                            <span>Minha Conta</span>
+                        </a>
+                        <span class="nav-divider"></span>
+                        <a class="nav-action carrinho-action" href="./carrinho.html" aria-label="carrinho">
+                            <span class="carrinho-icon">
+                                <img class="nav-action-icon" src="./imagens/shopping-bag.png" alt="">
+                                <span class="carrinho"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="categorias-nav">
+            <div class="categorias-nav-container">
+                <ul class="categorias-menu">
+                    <li><a class="categorias-links active" href="./index.html">INÍCIO</a></li>
+                    <li><a class="categorias-links" href="./catalogo.html#luvas-e-manoplas">LUVAS E MANOPLAS</a></li>
+                    <li><a class="categorias-links" href="./catalogo.html#kits-para-treino">KITS PARA TREINO</a>
+                    </li>
+                    <li><a class="categorias-links" href="./catalogo.html#acessorios-de-combate">PROTETORES</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+
+    <section class="produtos">
+        <div class="container-fluid d-flex">
+            <div class="row d-flex py-4">
+                <div class="col-12">
+                    <div class="row titulo1">
+                        <div class="titulo1-conteudo">
+                            <h1 class="fs-2" id="luvas-e-manoplas">LUVAS E MANOPLAS</h1>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid py-4 d-flex gap-4">
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/maximum_-82-q4zzwf3wfu.jpg" alt="Luva de Boxe Premium">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Luva de Boxe Profissional
+                                    Rosê - Detalhes Preto/Branco
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$322,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 300,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 150,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/M0P4W133.avif" alt="Luva de Boxe Premium">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Luva de Muay Thai Profissional
+                                    Preto Detalhes Amarelo
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 266,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 250,00
+                                </div>
+                                <div class="parcelamento">
+                                    5x de R$ 50,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/luva_boxe1.webp" alt="Luva de Boxe Premium">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Luva de Boxe Semi-Profissional
+                                    Preta - Detalhes Verde/Branco
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 400,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 388,00
+                                </div>
+                                <div class="parcelamento">
+                                    10x de R$ 38,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/luva_de_boxe_e_muay_thai_mxm_cor_vermelha_954_1_76aa596cd665144ea24a3a4213d8f9d4.webp"
+                                    alt="Luva de Boxe Premium">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Luva de Boxe / Muay Thai Profissional
+                                    Vermelho - Detalhes Branco
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 270,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 200,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 100,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container-fluid py-2 d-flex gap-4">
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/manopla1.webp" alt="Manopla">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Par de Manoplas de Foco Boxe
+                                    Branca - Detalhes Preto
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 120,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 99,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 49,50 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/manopla2.webp" alt="Manopla profissional">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Par de Manoplas Boxe e Kickboxing
+                                    Vermelho Detalhes Branco
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 150,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 130,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 65,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/manopla3.webp" alt="Manoplas Venum">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Par de Manoplas Boxe / Kickboxing Focus Venum
+                                    Preto
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 220,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 180,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 90,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/AXB-6277-120_zoom1.webp" alt="Luva de Boxe Premium">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Luva de Muay Thai Profissional
+                                    Preta - Detalhes Ouro/Branco
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 150,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 130,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 65,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row titulo1">
+                        <div class="titulo1-conteudo">
+                            <h1 class="fs-2" id="acessorios-de-combate">PROTETORES</h1>
+                        </div>
+                    </div>
+                    <div class="container-fluid py-4 d-flex gap-3">
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/caneleiras3.webp" alt="Caneleiras">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Caneleiras de Boxe Profissionais
+                                    Preto - Detalhes Ouro
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 150,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 130,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 65,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/caneleiras4.jpg" alt="Caneleiras">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Caneleiras de Muay Thai / Kickboxing
+                                    Verde Limão Detalhes Preto
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 350,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 270,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 135,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/caneleiras5.webp" alt="Capacete">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Caneleira de Muay Thai e Kickboxing
+                                    Azul Claro
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 225,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 199,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 99,50 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/capacete2.jpg" alt="Capacete">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Capacete de Boxe Infantil
+                                    Preto - Detalhes Cinza Camuflado
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 100,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 77,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 38,50 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid py-4 d-flex gap-3">
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/bucal1.webp" alt="Protetor bucal">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Protetor Bucal Venum Challenge
+                                    Preto Mate
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 80,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 55,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 27,50 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/bucal2.webp" alt="Caneleiras">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Protetor Bucal Venum Challenger
+                                    Preto / Laranja
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 80,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 55,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 27,50 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/bucal3.webp" alt="Capacete">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Protetor Bucal Venum Predator
+                                    Branco
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 60,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 50,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 25,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/capacete3.webp" alt="Capacete">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Capacete de Boxe Alta Qualidade
+                                    Preto - Detalhes Ciano
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 220,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 200,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 100,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row titulo1">
+                        <div class="titulo1-conteudo">
+                            <h1 class="fs-2" id="kits-para-treino">KITS PARA TREINO</h1>
+                        </div>
+                    </div>
+                    <div class="container-fluid py-4 d-flex gap-3">
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/kitboxe1.jpg" alt=" Kit de treino">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Kit para Treino de Boxe
+                                    Saco de Pancada E Luvas Hammer
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 1200,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 900,00
+                                </div>
+                                <div class="parcelamento">
+                                    10x de R$ 90,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/kitboxe2.webp" alt="Kit Boxe">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Kit para Treino
+                                    Saco de pancadas luvas e Caneleiras Fheras.
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 1000,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 899,00
+                                </div>
+                                <div class="parcelamento">
+                                    10x de R$ 89,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/kitboxe3.webp" alt="Kit Para treino">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Kit Muay Thai Kickboxing completo
+                                    + Bolsa Grande MKS
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 1000,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 790,00
+                                </div>
+                                <div class="parcelamento">
+                                    10x de R$ 79,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/kitboxe4.avif" alt="Kit">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Kit De Boxe, Muay Thai Pretorian:
+                                    Luvas + Protetor Bucal e Bandagem
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 500,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 480,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 240,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <div class="footer-brand">
+                <a class="footer-logo" href="./index.html" aria-label="Bramur - página inicial">
+                    <div class="footer-logo-mark">
+                        <img src="./imagens/final.png" alt="Logo" width="60px">
+                    </div>
+                    <span>BRAMUR</span>
+                </a>
+                <p class="footer-description">
+                    A marca preferida de lutadores e campeões brasileiros<br>
+                    de Boxe, Muay Thai e Kickboxing. Qualidade profissional<br>
+                    e durabilidade garantida.
+                </p>
+            </div>
+
+            <nav class="footer-column" aria-label="Suporte e ajuda">
+                <h2>SUPORTE E AJUDA</h2>
+                <p>Termos de Uso</p>
+                <p>Trocas e Devoluções</p>
+                <p>Envio e Prazos</p>
+                <p>Garantia dos Produtos</p>
+                <p>Políticas de Privacidade</p>
+            </nav>
+
+            <div class="footer-column footer-contact">
+                <h2>FALE CONOSCO</h2>
+                <p>Seg. a Sex. das 09h às 18h</p>
+                <p>@Vícttor eduardo</p>
+                <p>@Bryan Huggler</p>
+                <a class="footer-email" href="mailto:suporte@bramuracademy.com">suporte@bramuracademy.com</a>
+                <a class="footer-phone" href="tel:+9999999999999">(99) 99999-9999</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRAMUR - Detalhes do Produto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900&family=Special+Gothic+Expanded+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="navegacao-site">
+        <nav class="navbar py-1 navbar-expand-lg nav-bar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./imagens/final.png" alt="Logo" width="80px" class="d-flex align-text-center">
+                </a>
+                <a class="navbar-brand bramur1" href="./index.html">BRAMUR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Abrir menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="bramur-search" role="search">
+                        <div class="pesquisa">
+                            <input class="input" type="search" placeholder="Digite o que você procura...">
+                            <img class="icon" src="./imagens/lupa.png" alt="">
+                        </div>
+                    </form>
+                    <div class="nav-act">
+                        <a class="nav-action conta-action" href="./login.html">
+                            <img class="nav-action-icon" src="./imagens/people.png" alt="">
+                            <span>Minha Conta</span>
+                        </a>
+                        <span class="nav-divider"></span>
+                        <a class="nav-action carrinho-action" href="./carrinho.html" aria-label="carrinho">
+                            <span class="carrinho-icon">
+                                <img class="nav-action-icon" src="./imagens/shopping-bag.png" alt="">
+                                <span class="carrinho"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="categorias-nav">
+            <div class="categorias-nav-container">
+                <ul class="categorias-menu">
+                    <li><a class="categorias-links" href="./index.html">INÍCIO</a></li>
+                    <li><a class="categorias-links" href="./catalogo.html#luvas-e-manoplas">LUVAS E MANOPLAS</a></li>
+                    <li><a class="categorias-links" href="./catalogo.html#kits-para-treino">KITS PARA TREINO</a>
+                    </li>
+                    <li><a class="categorias-links" href="./catalogo.html#acessorios-de-combate">PROTETORES</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <main class="produto-detalhe-page">
+        <div class="produto-detalhe-container">
+            <section class="produto-detalhe">
+                <div class="produto-detalhe-imagem-wrap">
+                    <img id="produto-detalhe-imagem" class="produto-detalhe-imagem" src="" alt="Produto BRAMUR">
+                </div>
+
+                <div class="produto-detalhe-conteudo">
+                    <span class="produto-detalhe-marca">BRAMUR</span>
+                    <h1 id="produto-detalhe-titulo"></h1>
+                    <div id="produto-detalhe-preco-antigo" class="produto-detalhe-preco-antigo"></div>
+                    <div id="produto-detalhe-preco" class="produto-detalhe-preco"></div>
+                    <div id="produto-detalhe-parcelamento" class="produto-detalhe-parcelamento"></div>
+
+                    <div class="produto-detalhe-linha"></div>
+
+                    <h2>Especificações</h2>
+                    <div class="produto-especificacoes">
+                        <div><span>Categoria</span><strong id="produto-detalhe-categoria"></strong></div>
+                        <div><span>Tipo</span><strong id="produto-detalhe-tipo"></strong></div>
+                        <div><span>Cor / detalhes</span><strong id="produto-detalhe-cor"></strong></div>
+                        <div><span>Imagem</span><strong>Produto apresentado conforme catálogo</strong></div>
+                    </div>
+
+                    <button id="adicionar-produto" class="btn produto-detalhe-btn fw-bold">ADICIONAR AO
+                        CARRINHO</button>
+                    <button id="comprar-agora" class="btn produto-detalhe-btn produto-comprar-agora fw-bold">COMPRAR
+                        AGORA</button>
+                    <div id="produto-alerta" class="produto-alerta d-none" role="status"></div>
+                </div>
+            </section>
+
+            <section id="produto-nao-encontrado" class="produto-nao-encontrado d-none">
+                <h1>Produto não selecionado</h1>
+                <p>Volte ao catálogo e clique em <strong>VER MAIS</strong> em um produto para visualizar seus detalhes.
+                </p>
+                <a class="btn fw-bold" href="./catalogo.html">VER CATÁLOGO</a>
+            </section>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <div class="footer-brand">
+                <a class="footer-logo" href="./index.html" aria-label="Bramur - página inicial">
+                    <div class="footer-logo-mark"><img src="./imagens/final.png" alt="Logo" width="60px"></div>
+                    <span>BRAMUR</span>
+                </a>
+                <p class="footer-description">A marca preferida de lutadores e campeões brasileiros<br>de Boxe, Muay
+                    Thai e Kickboxing. Qualidade profissional<br>e durabilidade garantida.</p>
+            </div>
+            <nav class="footer-column" aria-label="Suporte e ajuda">
+                <h2>SUPORTE E AJUDA</h2>
+                <p>Termos de Uso</p>
+                <p>Trocas e Devoluções</p>
+                <p>Envio e Prazos</p>
+                <p>Garantia dos Produtos</p>
+                <p>Políticas de Privacidade</p>
+            </nav>
+            <div class="footer-column footer-contact">
+                <h2>FALE CONOSCO</h2>
+                <p>Seg. a Sex. das 09h às 18h</p>
+                <p>@Vícttor eduardo</p>
+                <p>@Bryan Huggler</p>
+                <a class="footer-email" href="mailto:suporte@bramuracademy.com">suporte@bramuracademy.com</a>
+                <a class="footer-phone" href="tel:+9999999999999">(99) 99999-9999</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

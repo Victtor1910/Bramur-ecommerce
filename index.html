@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Bramur </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lilita+One&family=Special+Gothic+Expanded+One&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/style.css">
+</head>
+
+<body class="home-page">
+
+    <!-- Navbars -->
+    <div class="navegacao-site">
+        <nav class="navbar py-3 navbar-expand-lg nav-bar">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./imagens/final.png" alt="Logo" width="80px" class="d-flex align-text-center">
+                </a>
+                <a class="navbar-brand bramur1" href="./index.html">BRAMUR</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <form class="bramur-search" role="search">
+                        <div class="pesquisa">
+                            <input class="input" type="search" placeholder="Digite o que você procura..." />
+                            <img class="icon" src="./imagens/lupa.png" alt="">
+                        </div>
+                    </form>
+                    <div class="nav-act">
+                        <a class="nav-action conta-action" href="./login.html">
+                            <img class="nav-action-icon" src="./imagens/people.png" alt="">
+                            <span>Minha Conta</span>
+                        </a>
+                        <span class="nav-divider"></span>
+                        <a class="nav-action carrinho-action" href="./carrinho.html" aria-label="carrinho">
+                            <span class="carrinho-icon">
+                                <img class="nav-action-icon" src="./imagens/shopping-bag.png" alt="">
+                                <span class="carrinho"></span>
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Navbar 2 -->
+        <nav class="categorias-nav">
+            <div class="categorias-nav-container">
+                <ul class="categorias-menu">
+                    <li><a class="categorias-links active" href="./index.html">INÍCIO</a></li>
+                    <li><a class="categorias-links" href="./catalogo.html#luvas-e-manoplas">LUVAS E MANOPLAS</a></li>
+                    <li><a class="categorias-links" href="./catalogo.html#kits-para-treino">KITS PARA TREINO</a>
+                    </li>
+                    <li><a class="categorias-links" href="./catalogo.html#acessorios-de-combate">PROTETORES</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Texto Central e Carousel-->
+    <section class="hero-bramur m-0">
+        <div class="container-fluid px-0">
+            <div class="row d-flex g-0">
+                <div class="col-12 col-lg-6 d-flex align-items-center">
+                    <div class="inicial">
+                        <span class="badge rounded-pill hero-tag"> TECNOLOGIA DE ALTA PERFORMANCE </span>
+
+                        <h1 class="hero-title"> SEU MATERIAL DE TREINO EM UM ÚNICO LUGAR </h1>
+
+                        <p class="hero-subtitle mb-3"> DESIGN EXCLUSIVO E MODERNO </p>
+
+                        <p class="hero-description mb-0">
+                            Equipamentos forjados para campeões. Das luvas com couro legítimo de alta
+                            resistência aos protetores de canela com absorção máxima de impacto.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-12 col-lg-6">
+                    <div id="carouselExample" class="carousel slide">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="./imagens/ChatGPT Image 14 de set. de 2026, 22_40_47.png"
+                                    class="d-block w-100" alt="">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="./imagens/ChatGPT Image 14 de set. de 2026, 22_43_31.png"
+                                    class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container hero-modalidades">
+            <div class="row flex-nowrap">
+                <div class="col">
+                    <a href="./catalogo.html#luvas-e-manoplas" class="modalidade-item">
+                        <span class="modalidade-icon modalidade-icon-x" aria-hidden="true"></span>
+                        <span>Luvas e Manoplas</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="./catalogo.html#kits-para-treino" class="modalidade-item">
+                        <span class="modalidade-icon modalidade-icon-x" aria-hidden="true"></span>
+                        <span>Kits Para Treino</span>
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="./catalogo.html#acessorios-de-combate" class="modalidade-item">
+                        <span class="modalidade-icon modalidade-icon-x" aria-hidden="true"></span>
+                        <span>Protetores</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Informações adicionais -->
+    <section class="informacoes" aria-label="Benefícios da loja">
+        <div class="benefits-row">
+            <div class="benefit-item">
+                <div class="benefit-icon" aria-hidden="true">
+                    <img src="./imagens/truck.png" alt="Frete grátis" />
+                </div>
+                <div class="benefit-copy">
+                    <h3>Frete Grátis</h3>
+                    <p>Para compras acima de R$350 no Sudeste</p>
+                </div>
+            </div>
+
+            <div class="benefit-item">
+                <div class="benefit-icon" aria-hidden="true">
+                    <img src="./imagens/credit-card.png" alt="Cartão" />
+                </div>
+                <div class="benefit-copy">
+                    <h3>Parcele suas Compras</h3>
+                    <p>Em até 3x sem juros no cartão</p>
+                </div>
+            </div>
+
+            <div class="benefit-item">
+                <div class="benefit-icon" aria-hidden="true">
+                    <img src="./imagens/barcode.png" alt="Pix" />
+                </div>
+                <div class="benefit-copy">
+                    <h3>Pagamento via PIX</h3>
+                    <p>Aprovação imediata com desconto</p>
+                </div>
+            </div>
+
+            <div class="benefit-item">
+                <div class="benefit-icon" aria-hidden="true">
+                    <img src="./imagens/shield-check.png" alt="Segurança" />
+                </div>
+                <div class="benefit-copy">
+                    <h3>Segurança e Conforto</h3>
+                    <p>Sua compra 100% protegida e segura</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cards de produtos -->
+    <section class="produtos">
+        <div class="container-fluid">
+            <div class="row d-flex py-4">
+                <div class="col-12">
+                    <div class="row titulo1">
+                        <div class="titulo1-conteudo">
+                            <h1 class="fs-2">LUVAS DE BOXE E MUAY THAI</h1>
+                            <a class="ver-todos" href="./catalogo.html">VER TODOS</a>
+                        </div>
+                    </div>
+
+                    <div class="container-fluid py-5 d-flex gap-4">
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/ChatGPT Image 14 de set. de 2026, 22_40_47.png"
+                                    alt="Luva de Boxe Premium">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Luva de Boxe Premium Profissional
+                                    Branca - Detalhes Preta/Dourada
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 300,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 280,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 140,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/maximum_-91-9mqy4mou6q.jpg" alt="Luva de Boxe Premium">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Luva de Muay Thai Profissional
+                                    Marrom Detalhes Branco
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 290,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 280,00
+                                </div>
+                                <div class="parcelamento">
+                                    10x de R$ 28,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/luva_boxe1.webp" alt="Luva de Boxe Premium">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Luva de Boxe Semi-Profissional
+                                    Preta - Detalhes Verde/Branco
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 309,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 299,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 149,50 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/AXB-6277-120_zoom1.webp" alt="Luva de Boxe Premium">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Luva de Muay Thai Profissional
+                                    Preta - Detalhes Ouro/Branco
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 150,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 130,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 65,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row titulo1">
+                        <div class="titulo1-conteudo">
+                            <h1 class="fs-2">ACESSÓRIOS DE BOXE E MUAY THAI</h1>
+                            <a class="ver-todos" href="./catalogo.html">VER TODOS</a>
+                        </div>
+                    </div>
+                    <div class="container-fluid py-5 d-flex gap-3">
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/caneleiras1.webp" alt="Caneleiras">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Caneleiras de Muay Thai Profissionais
+                                    Preta - Detalhes Preto/Branco
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 400,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 278,00
+                                </div>
+                                <div class="parcelamento">
+                                    5x de R$ 55,60 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/caneleiras2.webp" alt="Caneleiras">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Caneleiras de Muay Thai Semi-Profissional
+                                    Rosa Detalhes Preto
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 344,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 200,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 100,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/HG900PTK.avif" alt="Capacete">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Capacete de Boxe Profissional
+                                    Cinza
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 200,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 170,00
+                                </div>
+                                <div class="parcelamento">
+                                    2x de R$ 85,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                        <div class="produto-card">
+                            <div class="produto-imagem">
+                                <img src="./imagens/head_guard_capacete_de_boxe_mks_combat_full_face_nose_protection_3717_1_173dc75050d7bd60ca882c3078082a85.webp"
+                                    alt="Capacete">
+                            </div>
+                            <div class="produto-conteudo">
+                                <h5 class="produto-titulo fw-bold">
+                                    Capacete de Muay Thai Profissional
+                                    Preto - Detalhes Branco
+                                </h5>
+                                <div class="preco-antigo">
+                                    R$ 300,00
+                                </div>
+                                <div class="preco-atual fw-bold">
+                                    R$ 290,00
+                                </div>
+                                <div class="parcelamento">
+                                    10x de R$ 29,00 sem juros
+                                </div>
+                                <button class="btn fw-bold w-100 mt-3">
+                                    VER MAIS
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="site-footer-inner">
+            <div class="footer-brand">
+                <a class="footer-logo" href="./index.html" aria-label="Bramur - página inicial">
+                    <div class="footer-logo-mark">
+                        <img src="./imagens/final.png" alt="Logo" width="60px">
+                    </div>
+                    <span>BRAMUR</span>
+                </a>
+                <p class="footer-description">
+                    A loja preferida de lutadores e campeões brasileiros<br>
+                    de Boxe, Muay Thai e Kickboxing. Qualidade e atendimento profissional.
+                </p>
+            </div>
+
+            <nav class="footer-column" aria-label="Suporte e ajuda">
+                <h2>SUPORTE E AJUDA</h2>
+                <p>Termos de Uso</p>
+                <p>Trocas e Devoluções</p>
+                <p>Envio e Prazos</p>
+                <p>Garantia dos Produtos</p>
+                <p>Políticas de Privacidade</p>
+            </nav>
+
+            <div class="footer-column footer-contact">
+                <h2>FALE CONOSCO</h2>
+                <p>Seg. a Sex. das 09h às 18h</p>
+                <p>@Vícttor eduardo</p>
+                <p>@Bryan Huggler</p>
+                <a class="footer-email" href="mailto:suporte@bramuracademy.com">suporte@bramuracademy.com</a>
+                <a class="footer-phone" href="tel:+9999999999999">(99) 99999-9999</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+        </script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
