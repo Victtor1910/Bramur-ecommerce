@@ -11,8 +11,6 @@
 
 Uma loja virtual desenvolvida como projeto acadêmico, voltada para o universo do boxe, Muay Thai e esportes de combate.
 
-[Repositório](https://github.com/victtor1910/Bramur-ecommerce) · [Tecnologias](#tecnologias) · [Capturas de tela](#screenshots)
-
 <br>
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
