@@ -41,17 +41,27 @@ O projeto foi desenvolvido com foco na criação de uma interface organizada, na
 | JavaScript | Interatividade |
 | Bootstrap | Componentes e recursos de interface. |
 
-## Página inicial
-![Página inicial da Bramur](screenshots/página-inicial.png)
+<div align="center">
 
-## Login
-![Página de login da Bramur](screenshots/login.png)
+# 🥊 Bramur — Preview do projeto
 
-## Produtos
-![Página de produto da Bramur](screenshots/produto.png)
+### Página inicial
 
-## Catálogo
-![Página de catálogo da Bramur](screenshots/catálogo.png)
+<img src="screenshots/página-inicial.png" width="700" alt="Página inicial da Bramur">
+
+### Catálogo de produtos
+
+<img src="screenshots/catálogo.png" width="700" alt="Catálogo de produtos da Bramur">
+
+### Detalhes do produto
+
+<img src="screenshots/produto.png" width="700" alt="detalhes do produto da Bramur">
+
+### Login
+
+<img src="screenshots/login.png" width="700" alt="Página de login Bramur">
+
+</div>
 
 ## 📚 Aprendizados
 
