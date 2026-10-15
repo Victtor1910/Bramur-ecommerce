@@ -101,7 +101,7 @@ Projeto desenvolvido para fins educacionais, com o objetivo de aplicar conhecime
 
 **Vícttor** — estudante de tecnologia e desenvolvimento web.
 
-- GitHub: [@SEU-USUARIO](https://github.com/victtor1910)
+- GitHub: [@Vícttor Eduardo](https://github.com/victtor1910)
 
 ---
 
