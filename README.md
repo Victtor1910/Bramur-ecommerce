@@ -47,11 +47,11 @@ O projeto foi desenvolvido com foco na criação de uma interface organizada, na
 
 ### Página inicial
 
-<img src="screenshots/página-inicial.png" width="700" alt="Página inicial da Bramur">
+<img src="screenshots/página-inicial.png" width="400" alt="Página inicial da Bramur">
 
 ### Catálogo de produtos
 
-<img src="screenshots/catálogo.png" width="700" alt="Catálogo de produtos da Bramur">
+<img src="screenshots/catálogo.png" width="400" alt="Catálogo de produtos da Bramur">
 
 </div>
 
