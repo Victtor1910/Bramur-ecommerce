@@ -9,20 +9,6 @@ Projeto acadêmico de desenvolvimento web, criado para praticar programação, d
 
 [📦 Repositório](https://github.com/victtor1910/Bramur-ecommerce) · [🌐 Acessar o site](#) · [🐛 Reportar um problema](../../issues)
 
----
-
-## 📑 Índice
-
-- [Sobre o projeto](#-sobre-o-projeto)
-- [Funcionalidades](#-funcionalidades)
-- [Tecnologias](#-tecnologias)
-- [Estrutura do projeto](#-estrutura-do-projeto)
-- [Como executar](#-como-executar)
-- [Capturas de tela](#-capturas-de-tela)
-- [Aprendizados](#-aprendizados)
-- [Próximas melhorias](#-próximas-melhorias)
-- [Contexto acadêmico](#-contexto-acadêmico)
-
 ## Sobre o projeto
 
 A **Bramur** é uma proposta de loja virtual especializada em artigos para esportes de combate, como boxe e Muay Thai.
