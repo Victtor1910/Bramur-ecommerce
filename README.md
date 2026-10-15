@@ -24,9 +24,6 @@ O projeto foi desenvolvido com foco na criação de uma interface organizada, na
 - Praticar a organização e a documentação de um projeto no GitHub.
 
 ##  Funcionalidades
-
-Os recursos abaixo devem ser ajustados conforme a versão realmente implementada.
-
 - 🏠 Página inicial.
 - 🥊 Catálogo de produtos.
 - 👤 Páginas de login e cadastro.
@@ -42,22 +39,12 @@ Os recursos abaixo devem ser ajustados conforme a versão realmente implementada
 | JavaScript | Interatividade |
 | Bootstrap | Componentes e recursos de interface. |
 
-## 🖼️ Capturas de tela
+## 🖼️Prévia do projeto
 
-Adicione imagens reais do projeto para mostrar sua interface.
-
-Sugestões de capturas:
-
-- Página inicial.
-- Catálogo de produtos.
-- Página de detalhes de um produto, se existir.
-- Telas de login e cadastro, se existirem.
-
-Salve as imagens em uma pasta do projeto e insira-as aqui com a sintaxe Markdown:
-
-```markdown
-![Página inicial da Bramur](ASSETS/images/homepage.png)
-```
+![Página inicial da Bramur](screenshots/página-inicial.png)
+![Página de login da Bramur](screenshots/login.png)
+![Página de produto da Bramur](screenshots/produto.png)
+![Página de catálogo da Bramur](screenshots/catálogo.png)
 
 ## 📚 Aprendizados
 
