@@ -7,9 +7,9 @@ Projeto acadêmico de desenvolvimento web, criado para praticar programação, d
 ![Página inicial da Bramur](screenshots/página-inicial.png)
 
 <p align="center">
-[Repositório](https://github.com/victtor1910/Bramur-ecommerce) · [Acessar o site](#) · [Reportar um problema](../../issues)
 
 </p>
+[Repositório](https://github.com/victtor1910/Bramur-ecommerce) · [Acessar o site](#) · [Reportar um problema](../../issues)
 
 ## Sobre o projeto
 
