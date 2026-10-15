@@ -1,22 +1,57 @@
-# 🥊 Bramur | E-commerce de Artigos de Luta
+<div align="center">
 
-**Uma loja virtual desenvolvida para o universo dos esportes de combate.**
+<!-- Substitua pelo caminho do seu logotipo real, se houver -->
+<img src="ASSETS/images/logo.png" width="100" alt="Logo da Bramur">
 
-Projeto acadêmico de desenvolvimento web, criado para praticar programação, design de interfaces e organização de um site de comércio eletrônico.
+# Bramur
 
-![Página inicial da Bramur](screenshots/página-inicial.png)
+### E-commerce de artigos de luta
 
-<p align="center">
+**Equipamentos para quem luta por seus objetivos.**
 
-</p>
-[Repositório](https://github.com/victtor1910/Bramur-ecommerce) · [Acessar o site](#) · [Reportar um problema](../../issues)
+Uma loja virtual desenvolvida como projeto acadêmico, voltada para o universo do boxe, Muay Thai e esportes de combate.
 
-## Sobre o projeto
+[Repositório](https://github.com/SEU-USUARIO/Bramur-ecommerce) · [Tecnologias](#-tecnologias) · [Capturas de tela](#-capturas-de-tela)
 
-A **Bramur** é uma proposta de loja virtual especializada em artigos para esportes de combate, como boxe e Muay Thai.
+<br>
 
-O projeto foi desenvolvido com foco na criação de uma interface organizada, na apresentação de produtos e na aplicação prática de conceitos de desenvolvimento web.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 
+</div>
+
+---
+
+## 📖 Sobre o projeto
+
+A Bramur é um projeto acadêmico de desenvolvimento web que busca apresentar uma experiência de loja virtual para artigos de esportes de combate.
+
+## 🛠️ Tecnologias
+
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap, se utilizado no projeto
+
+## 🖼️ Capturas de tela
+
+Adicione aqui as imagens reais das páginas do site.
+
+## 🚀 Como executar
+
+1. Baixe ou clone este repositório.
+2. Abra a pasta do projeto.
+3. Execute o arquivo `index.html` no navegador.
+
+---
+
+<div align="center">
+
+**Desenvolvido com dedicação e aprendizado. 🥊**
+
+</div>
 ###  Objetivos
 
 - Criar uma experiência de navegação intuitiva.
