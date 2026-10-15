@@ -4,8 +4,7 @@
 
 Projeto acadêmico de desenvolvimento web, criado para praticar programação, design de interfaces e organização de um site de comércio eletrônico.
 
-<!-- Quando tiver uma captura de tela, substitua o caminho abaixo pela imagem do projeto. -->
-<!-- ![Página inicial da Bramur](ASSETS/images/homepage.png) -->
+![Página inicial da Bramur](ASSETS/images/página-inicial.png)
 
 [Repositório](https://github.com/victtor1910/Bramur-ecommerce) · [Acessar o site](#) · [Reportar um problema](../../issues)
 
