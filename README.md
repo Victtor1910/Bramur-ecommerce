@@ -22,34 +22,27 @@ Uma loja virtual desenvolvida como projeto acadêmico, voltada para o universo d
 
 ---
 
-## 📖 Sobre o projeto
+## Sobre o projeto
 
 A Bramur é um projeto acadêmico de desenvolvimento web que busca apresentar uma experiência de loja virtual para artigos de esportes de combate.
 
-## 🛠️ Tecnologias
+## Tecnologias
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 - Bootstrap, se utilizado no projeto
 
-## 🖼️ Capturas de tela
+## Capturas de tela
 
 Adicione aqui as imagens reais das páginas do site.
-
-## 🚀 Como executar
-
-1. Baixe ou clone este repositório.
-2. Abra a pasta do projeto.
-3. Execute o arquivo `index.html` no navegador.
-
----
 
 <div align="center">
 
 **Desenvolvido com dedicação e aprendizado. 🥊**
 
 </div>
+
 ###  Objetivos
 
 - Criar uma experiência de navegação intuitiva.
@@ -65,7 +58,7 @@ Adicione aqui as imagens reais das páginas do site.
 - 🧭 Navegação entre páginas.
 - 📱 Layout responsivo.
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 | Tecnologia | Finalidade |
 |---|---|
@@ -96,7 +89,7 @@ Adicione aqui as imagens reais das páginas do site.
 
 </div>
 
-## 📚 Aprendizados
+## Aprendizados
 
 Durante o desenvolvimento, o projeto permite praticar:
 
@@ -107,7 +100,7 @@ Durante o desenvolvimento, o projeto permite praticar:
 - Organização de arquivos e versionamento com Git e GitHub.
 - Documentação e apresentação de projetos.
 
-## 🔭 Próximas melhorias
+## Próximas melhorias
 
 Possíveis evoluções futuras, conforme os objetivos do projeto:
 
@@ -116,11 +109,11 @@ Possíveis evoluções futuras, conforme os objetivos do projeto:
 - Implementar filtros e busca de produtos.
 - Integrar um backend e um banco de dados.
 
-## 🎓 Contexto acadêmico
+## Contexto acadêmico
 
 Projeto desenvolvido para fins educacionais, com o objetivo de aplicar conhecimentos de programação e desenvolvimento web.
 
-## 👨‍💻 Autor
+## Autor
 
 **Vícttor** — estudante de tecnologia e desenvolvimento web.
 
