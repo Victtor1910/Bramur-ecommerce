@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- Substitua pelo caminho do seu logotipo real, se houver -->
-<img src="ASSETS/images/logo.png" width="100" alt="Logo da Bramur">
+<img src="images/final.png" width="100" alt="Logo da Bramur">
 
 # Bramur
 
