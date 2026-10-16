@@ -4,9 +4,6 @@
 <img src="imagens/final.png" width="100" alt="Logo da Bramur">
 
 # Bramur
-<a href="https://victtor1910.github.io/Bramur-ecommerce/">
-    <img src="https://img.shields.io/badge/Site-181717?style=for-the-badge&logo=github" />
-  </a>
 
 ### E-commerce de artigos de luta
 
@@ -15,6 +12,9 @@
 Uma loja virtual desenvolvida como projeto acadêmico, voltada para o universo do boxe, Muay Thai e esportes de combate.
 
 <br>
+<a href="https://victtor1910.github.io/Bramur-ecommerce/">
+    <img src="https://img.shields.io/badge/Link do site-181717?style=for-the-badge&logo=github" />
+  </a>
 
 ![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
