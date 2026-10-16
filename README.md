@@ -33,18 +33,6 @@ A Bramur é um projeto acadêmico de desenvolvimento web que busca apresentar um
 - JavaScript
 - Bootstrap, se utilizado no projeto
 
-## Capturas de tela
-
-Adicione aqui as imagens reais das páginas do site.
-
-###  Objetivos
-
-- Criar uma experiência de navegação intuitiva.
-- Organizar páginas e recursos de uma loja virtual.
-- Aplicar conceitos de HTML, CSS e JavaScript.
-- Desenvolver uma interface visual consistente.
-- Praticar a organização e a documentação de um projeto no GitHub.
-
 ##  Funcionalidades
 - 🏠 Página inicial.
 - 🥊 Catálogo de produtos.
